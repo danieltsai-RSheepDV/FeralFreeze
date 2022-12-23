@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{16df4936-81f7-4eb0-a5bc-d93ff66e28fb}">
+		<property name="assetPath">
+			<value>loot.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.2529705215419501</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{71b4faff-83bb-4f34-9c61-be73669fca08}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{248b1bbb-688f-4dfd-a4b0-03a06cdad830}">
+		<property name="assetPath">
+			<value>inGame.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>64</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a9ae3e71-61c2-4446-988f-0a5070a8a3fd}</destination>
+		</relationship>
+	</object>
+</objects>
