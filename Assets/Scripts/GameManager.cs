@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using FMOD.Studio;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using Random = UnityEngine.Random;
@@ -36,6 +37,8 @@ public class GameManager : MonoBehaviour
         public static HealthBarUI HealthBar;
     [SerializeField] private PauseMenuUI pauseMenu;
         public static PauseMenuUI PauseMenu;
+    [SerializeField] private TextMeshProUGUI scoreUI;
+        
     
     [Space]
     [SerializeField] private Material normalIce;
@@ -88,6 +91,8 @@ public class GameManager : MonoBehaviour
         }
         
         if(Paused) return;
+
+        scoreUI.text = score.ToString("000000.##");
 
         foreach (var key in new List<Vector3Int>(IceTracker.Keys))
         {

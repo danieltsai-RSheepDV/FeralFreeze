@@ -111,6 +111,7 @@ public class SlimeController : MonoBehaviour
         {
             sp.sprite = frozenSprite;
             frozen = true;
+            if (corrupt) GameManager.score += 100;
             corrupt = false;
         }
         else if(frozen && freezeAmount < 0)
